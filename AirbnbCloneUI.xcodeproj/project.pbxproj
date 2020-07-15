@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		31B9AB0024BAF3D0008C6CB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B9AAFF24BAF3D0008C6CB8 /* AppDelegate.swift */; };
 		31B9AB0224BAF3D0008C6CB8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B9AB0124BAF3D0008C6CB8 /* SceneDelegate.swift */; };
-		31B9AB0424BAF3D0008C6CB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B9AB0324BAF3D0008C6CB8 /* ViewController.swift */; };
+		31B9AB0424BAF3D0008C6CB8 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B9AB0324BAF3D0008C6CB8 /* MainVC.swift */; };
 		31B9AB0724BAF3D0008C6CB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31B9AB0524BAF3D0008C6CB8 /* Main.storyboard */; };
 		31B9AB0924BAF3D2008C6CB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31B9AB0824BAF3D2008C6CB8 /* Assets.xcassets */; };
 		31B9AB0C24BAF3D2008C6CB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31B9AB0A24BAF3D2008C6CB8 /* LaunchScreen.storyboard */; };
+		31EEF6AA24BF548B00F4CEAD /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EEF6A924BF548B00F4CEAD /* CreateAccountVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		31B9AAFC24BAF3D0008C6CB8 /* AirbnbCloneUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirbnbCloneUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B9AAFF24BAF3D0008C6CB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31B9AB0124BAF3D0008C6CB8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		31B9AB0324BAF3D0008C6CB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31B9AB0324BAF3D0008C6CB8 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		31B9AB0624BAF3D0008C6CB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31B9AB0824BAF3D2008C6CB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31B9AB0B24BAF3D2008C6CB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31B9AB0D24BAF3D2008C6CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31EEF6A924BF548B00F4CEAD /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +58,10 @@
 		31B9AAFE24BAF3D0008C6CB8 /* AirbnbCloneUI */ = {
 			isa = PBXGroup;
 			children = (
+				31EEF6A924BF548B00F4CEAD /* CreateAccountVC.swift */,
 				31B9AAFF24BAF3D0008C6CB8 /* AppDelegate.swift */,
 				31B9AB0124BAF3D0008C6CB8 /* SceneDelegate.swift */,
-				31B9AB0324BAF3D0008C6CB8 /* ViewController.swift */,
+				31B9AB0324BAF3D0008C6CB8 /* MainVC.swift */,
 				31B9AB0524BAF3D0008C6CB8 /* Main.storyboard */,
 				31B9AB0824BAF3D2008C6CB8 /* Assets.xcassets */,
 				31B9AB0A24BAF3D2008C6CB8 /* LaunchScreen.storyboard */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31B9AB0424BAF3D0008C6CB8 /* ViewController.swift in Sources */,
+				31B9AB0424BAF3D0008C6CB8 /* MainVC.swift in Sources */,
 				31B9AB0024BAF3D0008C6CB8 /* AppDelegate.swift in Sources */,
+				31EEF6AA24BF548B00F4CEAD /* CreateAccountVC.swift in Sources */,
 				31B9AB0224BAF3D0008C6CB8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
