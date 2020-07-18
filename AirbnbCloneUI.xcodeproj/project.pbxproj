@@ -7,16 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		318565CB24C351DA00C4B889 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318565CA24C351DA00C4B889 /* RoundedButton.swift */; };
+		318565CF24C3672800C4B889 /* TextFieldExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318565CE24C3672800C4B889 /* TextFieldExt.swift */; };
+		3194DD2A24C372CB00826C6C /* EmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3194DD2924C372CB00826C6C /* EmailVC.swift */; };
+		3194DD2C24C373C500826C6C /* NameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3194DD2B24C373C500826C6C /* NameVC.swift */; };
+		3194DD3024C3748800826C6C /* BirthdayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3194DD2F24C3748800826C6C /* BirthdayVC.swift */; };
+		3194DD3324C3769800826C6C /* PasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3194DD3224C3769800826C6C /* PasswordVC.swift */; };
 		31B9AB0024BAF3D0008C6CB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B9AAFF24BAF3D0008C6CB8 /* AppDelegate.swift */; };
 		31B9AB0224BAF3D0008C6CB8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B9AB0124BAF3D0008C6CB8 /* SceneDelegate.swift */; };
 		31B9AB0424BAF3D0008C6CB8 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B9AB0324BAF3D0008C6CB8 /* MainVC.swift */; };
 		31B9AB0724BAF3D0008C6CB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31B9AB0524BAF3D0008C6CB8 /* Main.storyboard */; };
 		31B9AB0924BAF3D2008C6CB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31B9AB0824BAF3D2008C6CB8 /* Assets.xcassets */; };
 		31B9AB0C24BAF3D2008C6CB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31B9AB0A24BAF3D2008C6CB8 /* LaunchScreen.storyboard */; };
-		31EEF6AA24BF548B00F4CEAD /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EEF6A924BF548B00F4CEAD /* CreateAccountVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		318565CA24C351DA00C4B889 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		318565CE24C3672800C4B889 /* TextFieldExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExt.swift; sourceTree = "<group>"; };
+		3194DD2924C372CB00826C6C /* EmailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailVC.swift; sourceTree = "<group>"; };
+		3194DD2B24C373C500826C6C /* NameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameVC.swift; sourceTree = "<group>"; };
+		3194DD2F24C3748800826C6C /* BirthdayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayVC.swift; sourceTree = "<group>"; };
+		3194DD3224C3769800826C6C /* PasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordVC.swift; sourceTree = "<group>"; };
 		31B9AAFC24BAF3D0008C6CB8 /* AirbnbCloneUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirbnbCloneUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B9AAFF24BAF3D0008C6CB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31B9AB0124BAF3D0008C6CB8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +36,6 @@
 		31B9AB0824BAF3D2008C6CB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31B9AB0B24BAF3D2008C6CB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31B9AB0D24BAF3D2008C6CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		31EEF6A924BF548B00F4CEAD /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +49,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		318565D024C3689200C4B889 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				318565CE24C3672800C4B889 /* TextFieldExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3194DD3124C374A700826C6C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				31B9AB0324BAF3D0008C6CB8 /* MainVC.swift */,
+				3194DD2924C372CB00826C6C /* EmailVC.swift */,
+				3194DD2B24C373C500826C6C /* NameVC.swift */,
+				3194DD2F24C3748800826C6C /* BirthdayVC.swift */,
+				3194DD3224C3769800826C6C /* PasswordVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		31B9AAF324BAF3D0008C6CB8 = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +88,11 @@
 		31B9AAFE24BAF3D0008C6CB8 /* AirbnbCloneUI */ = {
 			isa = PBXGroup;
 			children = (
-				31EEF6A924BF548B00F4CEAD /* CreateAccountVC.swift */,
+				3194DD3124C374A700826C6C /* ViewControllers */,
+				318565D024C3689200C4B889 /* Extensions */,
+				318565CA24C351DA00C4B889 /* RoundedButton.swift */,
 				31B9AAFF24BAF3D0008C6CB8 /* AppDelegate.swift */,
 				31B9AB0124BAF3D0008C6CB8 /* SceneDelegate.swift */,
-				31B9AB0324BAF3D0008C6CB8 /* MainVC.swift */,
 				31B9AB0524BAF3D0008C6CB8 /* Main.storyboard */,
 				31B9AB0824BAF3D2008C6CB8 /* Assets.xcassets */,
 				31B9AB0A24BAF3D2008C6CB8 /* LaunchScreen.storyboard */,
@@ -141,10 +172,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3194DD3024C3748800826C6C /* BirthdayVC.swift in Sources */,
 				31B9AB0424BAF3D0008C6CB8 /* MainVC.swift in Sources */,
+				318565CB24C351DA00C4B889 /* RoundedButton.swift in Sources */,
 				31B9AB0024BAF3D0008C6CB8 /* AppDelegate.swift in Sources */,
-				31EEF6AA24BF548B00F4CEAD /* CreateAccountVC.swift in Sources */,
+				3194DD2A24C372CB00826C6C /* EmailVC.swift in Sources */,
 				31B9AB0224BAF3D0008C6CB8 /* SceneDelegate.swift in Sources */,
+				3194DD2C24C373C500826C6C /* NameVC.swift in Sources */,
+				3194DD3324C3769800826C6C /* PasswordVC.swift in Sources */,
+				318565CF24C3672800C4B889 /* TextFieldExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
