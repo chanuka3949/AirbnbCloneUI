@@ -375,8 +375,8 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="QBo-pG-wMf">
-                                <rect key="frame" x="30" y="220" width="354" height="117.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="QBo-pG-wMf">
+                                <rect key="frame" x="30" y="220" width="354" height="101"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fSd-DU-omE">
                                         <rect key="frame" x="0.0" y="0.0" width="354" height="43"/>
@@ -389,35 +389,92 @@ b24ndCBzZWUgeW91ciBiaXJ0aGRheS4
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BIRTHDAY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nz7-1h-n9j">
-                                        <rect key="frame" x="0.0" y="58" width="354" height="21.5"/>
+                                        <rect key="frame" x="0.0" y="58" width="354" height="43"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleAspectFit" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="  /  /" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="fr6-D0-ua1">
-                                        <rect key="frame" x="0.0" y="94.5" width="354" height="23"/>
-                                        <color key="backgroundColor" red="0.0" green="0.65098039220000004" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="fme-ME-MUR">
+                                <rect key="frame" x="30" y="351" width="354" height="50"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="DD" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3mc-q2-AMe" customClass="UnderlinedTextField" customModule="AirbnbCloneUI" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="75" id="oCD-Ab-Twz"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="dayEditDidBeginAction:" destination="PMt-rs-jBp" eventType="editingDidBegin" id="5az-FT-p8W"/>
+                                            <action selector="dayEditDidBeginAction:" destination="PMt-rs-jBp" eventType="editingChanged" id="M0G-7x-ivc"/>
+                                        </connections>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="/" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ffi-th-UIM">
+                                        <rect key="frame" x="75" y="0.0" width="10" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="10" id="S0o-Mc-rzw"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="MM" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6hb-M6-KhK" customClass="UnderlinedTextField" customModule="AirbnbCloneUI" customModuleProvider="target">
+                                        <rect key="frame" x="85" y="0.0" width="75" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="75" id="0Jv-XE-1Hh"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="monthEditDidBeginAction:" destination="PMt-rs-jBp" eventType="editingChanged" id="FLu-Uw-jek"/>
+                                            <action selector="monthEditDidBeginAction:" destination="PMt-rs-jBp" eventType="editingDidBegin" id="NgV-Ay-3uG"/>
+                                        </connections>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="/" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u9c-9y-wxF">
+                                        <rect key="frame" x="160" y="0.0" width="10" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="10" id="MjQ-af-xLR"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="YYYY" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wcA-zC-luJ" customClass="UnderlinedTextField" customModule="AirbnbCloneUI" customModuleProvider="target">
+                                        <rect key="frame" x="170" y="0.0" width="184" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="yearEditDidBeginAction:" destination="PMt-rs-jBp" eventType="editingDidBegin" id="8xO-3K-eVo"/>
+                                            <action selector="yearEditDidBeginAction:" destination="PMt-rs-jBp" eventType="editingChanged" id="pf5-aI-yt1"/>
+                                        </connections>
                                     </textField>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="4Dd-Xh-LgN"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.65098039220000004" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="fme-ME-MUR" firstAttribute="top" secondItem="QBo-pG-wMf" secondAttribute="bottom" constant="30" id="K7Y-fr-8l3"/>
                             <constraint firstItem="QBo-pG-wMf" firstAttribute="leading" secondItem="irV-KH-XbF" secondAttribute="leading" constant="30" id="LwS-r2-JRK"/>
                             <constraint firstItem="QBo-pG-wMf" firstAttribute="top" secondItem="e8S-lM-inZ" secondAttribute="bottom" constant="50" id="OBe-Ao-Rjm"/>
+                            <constraint firstItem="d0x-Wv-HZT" firstAttribute="trailing" secondItem="fme-ME-MUR" secondAttribute="trailing" constant="30" id="ZFZ-VF-dd6"/>
                             <constraint firstItem="e8S-lM-inZ" firstAttribute="top" secondItem="d0x-Wv-HZT" secondAttribute="top" id="jlt-YW-UBN"/>
                             <constraint firstItem="e8S-lM-inZ" firstAttribute="leading" secondItem="d0x-Wv-HZT" secondAttribute="leading" constant="30" id="mhC-n8-qgd"/>
                             <constraint firstItem="d0x-Wv-HZT" firstAttribute="trailing" secondItem="e8S-lM-inZ" secondAttribute="trailing" constant="30" id="mzh-Sl-41i"/>
+                            <constraint firstItem="fme-ME-MUR" firstAttribute="leading" secondItem="d0x-Wv-HZT" secondAttribute="leading" constant="30" id="q2D-fJ-CaX"/>
                             <constraint firstAttribute="trailing" secondItem="QBo-pG-wMf" secondAttribute="trailing" constant="30" id="txZ-W8-sAe"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="d0x-Wv-HZT"/>
                     </view>
                     <navigationItem key="navigationItem" id="DjS-h7-NQf"/>
                     <connections>
-                        <outlet property="txtBirthday" destination="fr6-D0-ua1" id="L2c-yo-a52"/>
+                        <outlet property="dateRef" destination="3mc-q2-AMe" id="cKl-zY-sDr"/>
+                        <outlet property="monthRef" destination="6hb-M6-KhK" id="yz4-91-ecN"/>
+                        <outlet property="yearRef" destination="wcA-zC-luJ" id="5A1-Vo-Phg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0dk-96-l3H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -439,10 +496,10 @@ b24ndCBzZWUgeW91ciBiaXJ0aGRheS4
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="9g7-pt-EGQ">
-                                <rect key="frame" x="20" y="220" width="374" height="95"/>
+                                <rect key="frame" x="20" y="220" width="374" height="116.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ky4-Hd-XHi">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="21.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="43"/>
                                         <attributedString key="attributedText">
                                             <fragment content="Your password must include at least one symbol and be 8 or more characters long">
                                                 <attributes>
@@ -455,13 +512,13 @@ b24ndCBzZWUgeW91ciBiaXJ0aGRheS4
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PASSWORD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="efu-1q-171">
-                                        <rect key="frame" x="0.0" y="36.5" width="374" height="21.5"/>
+                                        <rect key="frame" x="0.0" y="58" width="374" height="21.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="x5A-sT-XZq">
-                                        <rect key="frame" x="0.0" y="73" width="374" height="22"/>
+                                        <rect key="frame" x="0.0" y="94.5" width="374" height="22"/>
                                         <color key="backgroundColor" red="0.0" green="0.65098039220000004" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
