@@ -18,7 +18,5 @@ class NameVC: UIViewController {
 
         txtFirstName.setTextFiledUnderline()
         txtLastName.setTextFiledUnderline()
-    }
-
-
+}
 }
