@@ -11,12 +11,16 @@ import UIKit
 class BirthdayVC: UIViewController {
 
     
-    @IBOutlet weak var dateRef: UnderlinedTextField!
-    @IBOutlet weak var monthRef: UnderlinedTextField!
-    @IBOutlet weak var yearRef: UnderlinedTextField!
+    @IBOutlet weak var dateRef: UITextField!
+    @IBOutlet weak var monthRef: UITextField!
+    @IBOutlet weak var yearRef: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        dateRef.setTextFiledUnderline()
+        monthRef.setTextFiledUnderline()
+        yearRef.setTextFiledUnderline()
     }
     
     

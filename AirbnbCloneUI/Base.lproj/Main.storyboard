@@ -399,7 +399,7 @@ b24ndCBzZWUgeW91ciBiaXJ0aGRheS4
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="fme-ME-MUR">
                                 <rect key="frame" x="30" y="351" width="354" height="50"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="DD" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3mc-q2-AMe" customClass="UnderlinedTextField" customModule="AirbnbCloneUI" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="DD" textAlignment="center" clearsOnBeginEditing="YES" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3mc-q2-AMe" customClass="UnderlinedTextField" customModule="AirbnbCloneUI" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="75" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="75" id="oCD-Ab-Twz"/>
@@ -420,7 +420,7 @@ b24ndCBzZWUgeW91ciBiaXJ0aGRheS4
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="MM" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6hb-M6-KhK" customClass="UnderlinedTextField" customModule="AirbnbCloneUI" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="MM" textAlignment="center" clearsOnBeginEditing="YES" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6hb-M6-KhK" customClass="UnderlinedTextField" customModule="AirbnbCloneUI" customModuleProvider="target">
                                         <rect key="frame" x="85" y="0.0" width="75" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="75" id="0Jv-XE-1Hh"/>
@@ -441,7 +441,7 @@ b24ndCBzZWUgeW91ciBiaXJ0aGRheS4
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="YYYY" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wcA-zC-luJ" customClass="UnderlinedTextField" customModule="AirbnbCloneUI" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="YYYY" textAlignment="center" clearsOnBeginEditing="YES" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wcA-zC-luJ" customClass="UnderlinedTextField" customModule="AirbnbCloneUI" customModuleProvider="target">
                                         <rect key="frame" x="170" y="0.0" width="184" height="50"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -496,10 +496,10 @@ b24ndCBzZWUgeW91ciBiaXJ0aGRheS4
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="9g7-pt-EGQ">
-                                <rect key="frame" x="20" y="220" width="374" height="116.5"/>
+                                <rect key="frame" x="20" y="220" width="374" height="95"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ky4-Hd-XHi">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="43"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="21.5"/>
                                         <attributedString key="attributedText">
                                             <fragment content="Your password must include at least one symbol and be 8 or more characters long">
                                                 <attributes>
@@ -512,13 +512,13 @@ b24ndCBzZWUgeW91ciBiaXJ0aGRheS4
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PASSWORD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="efu-1q-171">
-                                        <rect key="frame" x="0.0" y="58" width="374" height="21.5"/>
+                                        <rect key="frame" x="0.0" y="36.5" width="374" height="21.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="x5A-sT-XZq">
-                                        <rect key="frame" x="0.0" y="94.5" width="374" height="22"/>
+                                        <rect key="frame" x="0.0" y="73" width="374" height="22"/>
                                         <color key="backgroundColor" red="0.0" green="0.65098039220000004" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
@@ -573,6 +573,7 @@ b24ndCBzZWUgeW91ciBiaXJ0aGRheS4
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="0.0" green="0.65098039220000004" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
