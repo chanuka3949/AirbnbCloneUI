@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3175501B24CDCBF70015F69F /* GradientUIViewColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3175501A24CDCBF70015F69F /* GradientUIViewColor.swift */; };
 		318565CB24C351DA00C4B889 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318565CA24C351DA00C4B889 /* RoundedButton.swift */; };
 		318565CF24C3672800C4B889 /* TextFieldExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318565CE24C3672800C4B889 /* TextFieldExt.swift */; };
 		3194DD2A24C372CB00826C6C /* EmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3194DD2924C372CB00826C6C /* EmailVC.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3175501A24CDCBF70015F69F /* GradientUIViewColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientUIViewColor.swift; sourceTree = "<group>"; };
 		318565CA24C351DA00C4B889 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		318565CE24C3672800C4B889 /* TextFieldExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExt.swift; sourceTree = "<group>"; };
 		3194DD2924C372CB00826C6C /* EmailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailVC.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				318565CE24C3672800C4B889 /* TextFieldExt.swift */,
+				3175501A24CDCBF70015F69F /* GradientUIViewColor.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				31B9AB0024BAF3D0008C6CB8 /* AppDelegate.swift in Sources */,
 				3194DD2A24C372CB00826C6C /* EmailVC.swift in Sources */,
 				31B9AB0224BAF3D0008C6CB8 /* SceneDelegate.swift in Sources */,
+				3175501B24CDCBF70015F69F /* GradientUIViewColor.swift in Sources */,
 				3194DD2C24C373C500826C6C /* NameVC.swift in Sources */,
 				3194DD3324C3769800826C6C /* PasswordVC.swift in Sources */,
 				318565CF24C3672800C4B889 /* TextFieldExt.swift in Sources */,
