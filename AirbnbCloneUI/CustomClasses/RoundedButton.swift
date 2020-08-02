@@ -19,7 +19,7 @@ class RoundedButton: UIButton {
          super.init(coder: coder)
          setUpButton()
      }
-     
+  
      func setUpButton() {
         layer.cornerRadius = frame.size.height/2
         layer.borderWidth = 2.0

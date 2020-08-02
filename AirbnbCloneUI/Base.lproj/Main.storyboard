@@ -98,14 +98,14 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="s9m-Tc-De2">
                                 <rect key="frame" x="20" y="361" width="374" height="174"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l8O-7V-9sR" customClass="RoundedButton" customModule="AirbnbCloneUI" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l8O-7V-9sR" customClass="RoundedButton" customModule="AirbnbCloneUI" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="50"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="93W-9p-Rq0"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <state key="normal" title="Continue with Google">
+                                        <inset key="imageEdgeInsets" minX="50" minY="10" maxX="250" maxY="10"/>
+                                        <state key="normal" title="Continue with Google" image="GoogleLogo">
                                             <color key="titleColor" red="0.0" green="0.65098039220000004" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
@@ -583,6 +583,7 @@ b24ndCBzZWUgeW91ciBiaXJ0aGRheS4
     </scenes>
     <resources>
         <image name="AppLogo" width="512" height="512"/>
+        <image name="GoogleLogo" width="512" height="512"/>
         <image name="arrow.right.circle.fill" catalog="system" width="128" height="121"/>
     </resources>
 </document>
